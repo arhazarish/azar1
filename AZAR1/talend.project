@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Wom98WkKEe6RaP46k4gSfg" label="azar1" description="-" language="java" technicalLabel="AZAR1" author="_Wom98mkKEe6RaP46k4gSfg" productVersion="Talend Cloud Data Management Platform-8.0.1.20230418_1502-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/arhazarish/azar1.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_Wom98WkKEe6RaP46k4gSfg" label="azar1" description="-" language="java" technicalLabel="AZAR1" author="_Wom98mkKEe6RaP46k4gSfg" productVersion="Talend Cloud Data Management Platform-8.0.1.20230913_0925-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/arhazarish/azar1.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_Wp-P4GkKEe6RaP46k4gSfg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Wom98mkKEe6RaP46k4gSfg" login="azaruddinmohammad887@trial11557.ap.talend.com" firstName="mohammad" lastName="Azaruddin" type="DQ"/>
+  <TalendProperties:User xmi:id="_kzZhIHn_Ee6lnLNJQg3GiQ" login="itsazar.md@trial11751.ap.talend.com" firstName="mohd" lastName="azaruddin" type="DQ"/>
+  <TalendProperties:User xmi:id="_MlH3QI3fEe62i5ziU-mJQw" login="azaruddinmohammad887@trial12003.ap.talend.com" firstName="mohd" lastName="azar" type="DQ"/>
 </xmi:XMI>

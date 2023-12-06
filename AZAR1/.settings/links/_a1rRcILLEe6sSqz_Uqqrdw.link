@@ -1,0 +1,59 @@
+{
+  "itemId" : "_a1rRcILLEe6sSqz_Uqqrdw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_0szFoIK5Ee6SHr6712Weyw",
+    "parameterList" : [ {
+      "id" : "_0tNVUYK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_schemaName"
+    }, {
+      "id" : "_0tNVUoK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_0tNVU4K5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_userPassword_userId"
+    }, {
+      "id" : "_0tNVVIK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_0tNVVYK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_db"
+    }, {
+      "id" : "_0tNVVoK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_scope"
+    }, {
+      "id" : "_0tNVV4K5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_0tNVWIK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_account"
+    }, {
+      "id" : "_0tNVWYK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_clientId"
+    }, {
+      "id" : "_0tNVWoK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_oauthProperties_clientSecret"
+    }, {
+      "id" : "_0tNVW4K5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_role"
+    }, {
+      "id" : "_0tNVXIK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_loginTimeout"
+    }, {
+      "id" : "_0tNVXYK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_warehouse"
+    }, {
+      "id" : "_0tNVXoK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_keyAlias"
+    }, {
+      "id" : "_0tNVX4K5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_regionID"
+    }, {
+      "id" : "_0tNVYIK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_jdbcParameters"
+    }, {
+      "id" : "_0tNVYYK5Ee6SHr6712Weyw",
+      "name" : "Data_Migration_userPassword_password"
+    } ]
+  } ]
+}

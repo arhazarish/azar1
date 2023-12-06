@@ -1,0 +1,41 @@
+{
+  "itemId" : "_1uH3YGpdEe69hbm09jA9Sw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Vhy-MGzsEe6jf_Qo0jMwvw",
+    "parameterList" : [ {
+      "id" : "_jBbnIG1wEe6Xx6apqzzcdg",
+      "name" : "STATUS"
+    }, {
+      "id" : "_ViQRNWzsEe6jf_Qo0jMwvw",
+      "name" : "SOURCE_COUNT"
+    }, {
+      "id" : "_ViQRM2zsEe6jf_Qo0jMwvw",
+      "name" : "STARTDATE"
+    }, {
+      "id" : "_yWOxcG1xEe6Xx6apqzzcdg",
+      "name" : "LOOKUP_COUNT"
+    }, {
+      "id" : "_4sE6oGzsEe6jf_Qo0jMwvw",
+      "name" : "job_id"
+    }, {
+      "id" : "_ViQRMmzsEe6jf_Qo0jMwvw",
+      "name" : "JOBNAME"
+    }, {
+      "id" : "_CUDhgGztEe6jf_Qo0jMwvw",
+      "name" : "maxExecution_Key"
+    }, {
+      "id" : "_ViQRNmzsEe6jf_Qo0jMwvw",
+      "name" : "TARGET_COUNT"
+    }, {
+      "id" : "_ViQRN2zsEe6jf_Qo0jMwvw",
+      "name" : "REJECT_COUNT"
+    }, {
+      "id" : "_ViQRMWzsEe6jf_Qo0jMwvw",
+      "name" : "PROJECT_NAME"
+    }, {
+      "id" : "_ViQRNGzsEe6jf_Qo0jMwvw",
+      "name" : "ENDDATE"
+    } ]
+  } ]
+}

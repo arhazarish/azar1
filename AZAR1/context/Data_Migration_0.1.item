@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" hide="false" name="Default" xmi:id="_0tNVUIK5Ee6SHr6712Weyw" xmi:version="2.0">
+  <contextParameter comment="" name="Data_Migration_schemaName" prompt="Data_Migration_schemaName?" promptNeeded="false" repositoryContextId="" type="id_String" value="MIGRATION" xmi:id="_0tNVUYK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_oauthTokenEndpoint" prompt="Data_Migration_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVUoK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_userPassword_userId" prompt="Data_Migration_userPassword_userId?" promptNeeded="false" repositoryContextId="" type="id_String" value="AZARUDDIN" xmi:id="_0tNVU4K5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_oauthPassword" prompt="Data_Migration_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_0tNVVIK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_db" prompt="Data_Migration_db?" promptNeeded="false" repositoryContextId="" type="id_String" value="DATA_MIGRATION" xmi:id="_0tNVVYK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_scope" prompt="Data_Migration_oauthProperties_scope?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVVoK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_oauthUserName" prompt="Data_Migration_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVV4K5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_account" prompt="Data_Migration_account?" promptNeeded="false" repositoryContextId="" type="id_String" value="lqjapym-ww36780" xmi:id="_0tNVWIK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_clientId" prompt="Data_Migration_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVWYK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_oauthProperties_clientSecret" prompt="Data_Migration_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_0tNVWoK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_role" prompt="Data_Migration_role?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVW4K5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_loginTimeout" prompt="Data_Migration_loginTimeout?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="15" xmi:id="_0tNVXIK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_warehouse" prompt="Data_Migration_warehouse?" promptNeeded="false" repositoryContextId="" type="id_String" value="COMPUTE_WH" xmi:id="_0tNVXYK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_keyAlias" prompt="Data_Migration_keyAlias?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVXoK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_regionID" prompt="Data_Migration_regionID?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVX4K5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_jdbcParameters" prompt="Data_Migration_jdbcParameters?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_0tNVYIK5Ee6SHr6712Weyw"/>
+  <contextParameter comment="" name="Data_Migration_userPassword_password" prompt="Data_Migration_userPassword_password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:fngsiYl+ksr0MIyo7ut7sI8+BqOcLp97IALTdlJ+hkiHpTRM/3WKoA==" xmi:id="_0tNVYYK5Ee6SHr6712Weyw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9d602814-d1c6-46cb-b1bb-8ce135783d8c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eMyGnOosYPUCRSJV0kzMjGXumQ8qNRkayk/tdl0R8+RTf0oG6XmdCXDsEbTp8d5XqxNTin6+VVNU&#13;
+8pNJaLBzEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ab22a6a0-9e40-4bcd-8c10-58207c29cf85"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9eGKb9RrVOYLgHx+1ZZImyHffS/p/nnU0YfJ9IT+U9LFBL9m8gBVzKBgUaNPDvb9ps+A76jnh02v&#13;
+oLXsYu1kYg==</DigestValue></Reference></SignedInfo><SignatureValue>EzP5YmExRpAQ8SzxVcavsVlM11wR8Go7CBBiEh41SOvTRG1B4c+ehdryKj3CAPZChECiQnZBeQKA&#13;
+F39pEZdlqLso0Tnybz4VdgXg1kyHXXc0ZVIGYhbJlEAWVpW6t8S+FD3gmdQiaOZSWuuzOHE6/Eos&#13;
+4sRlZ17UWPmfMeCvLMw91QsjZSuAWu4snX1skzti1s1ICANADn/MjlyE4Y+nh5KQrRCukzPxn1ur&#13;
+lBNEa14ifEnnGG+qNPzHuTIrByEf8uXRmbZG3N8pii9cNHKbIAk8iIytwA89iEQGQfCQC/tZQUpD&#13;
+R5Q224Aj6OX6EU7/tAo+IWw9rWQT8UBdSACB/g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ab22a6a0-9e40-4bcd-8c10-58207c29cf85" Target="#_9d602814-d1c6-46cb-b1bb-8ce135783d8c"><Timestamp>2023-11-14 06:48:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

@@ -1,0 +1,116 @@
+{
+  "itemId" : "_G2ixoG_UEe6XK-AiuwZFfw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Vhy-MGzsEe6jf_Qo0jMwvw",
+    "parameterList" : [ {
+      "id" : "_jBbnIG1wEe6Xx6apqzzcdg",
+      "name" : "STATUS"
+    }, {
+      "id" : "_ViQRNWzsEe6jf_Qo0jMwvw",
+      "name" : "SOURCE_COUNT"
+    }, {
+      "id" : "_ViQRM2zsEe6jf_Qo0jMwvw",
+      "name" : "STARTDATE"
+    }, {
+      "id" : "_ViQROGzsEe6jf_Qo0jMwvw",
+      "name" : "ERROR_MESSAGE"
+    }, {
+      "id" : "_yWOxcG1xEe6Xx6apqzzcdg",
+      "name" : "LOOKUP_COUNT"
+    }, {
+      "id" : "_4sE6oGzsEe6jf_Qo0jMwvw",
+      "name" : "job_id"
+    }, {
+      "id" : "_ViQRMmzsEe6jf_Qo0jMwvw",
+      "name" : "JOBNAME"
+    }, {
+      "id" : "_CUDhgGztEe6jf_Qo0jMwvw",
+      "name" : "maxExecution_Key"
+    }, {
+      "id" : "_ViQRNmzsEe6jf_Qo0jMwvw",
+      "name" : "TARGET_COUNT"
+    }, {
+      "id" : "_ViQRN2zsEe6jf_Qo0jMwvw",
+      "name" : "REJECT_COUNT"
+    }, {
+      "id" : "_ViQRMWzsEe6jf_Qo0jMwvw",
+      "name" : "PROJECT_NAME"
+    }, {
+      "id" : "_ViQRNGzsEe6jf_Qo0jMwvw",
+      "name" : "ENDDATE"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_tiYnAGy4Ee6wU9t9-3ftJw",
+    "parameterList" : [ {
+      "id" : "_tit-NWy4Ee6wU9t9-3ftJw",
+      "name" : "schema"
+    }, {
+      "id" : "_tit-M2y4Ee6wU9t9-3ftJw",
+      "name" : "password"
+    }, {
+      "id" : "_tit-Nmy4Ee6wU9t9-3ftJw",
+      "name" : "database"
+    }, {
+      "id" : "_tit-NGy4Ee6wU9t9-3ftJw",
+      "name" : "warehouse"
+    }, {
+      "id" : "_tit-Mmy4Ee6wU9t9-3ftJw",
+      "name" : "userid"
+    }, {
+      "id" : "_tit-MWy4Ee6wU9t9-3ftJw",
+      "name" : "account"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KfUa8Gy6Ee6wU9t9-3ftJw",
+    "parameterList" : [ {
+      "id" : "_dR4iEGy6Ee6wU9t9-3ftJw",
+      "name" : "filenametarget"
+    }, {
+      "id" : "_Kflgsmy6Ee6wU9t9-3ftJw",
+      "name" : "acesskey"
+    }, {
+      "id" : "_Kflgs2y6Ee6wU9t9-3ftJw",
+      "name" : "secretekey"
+    }, {
+      "id" : "_OjOVQGy6Ee6wU9t9-3ftJw",
+      "name" : "soursepath"
+    }, {
+      "id" : "_XYXJ8Wy6Ee6wU9t9-3ftJw",
+      "name" : "mybucket"
+    }, {
+      "id" : "_XYXJ8Gy6Ee6wU9t9-3ftJw",
+      "name" : "targetpath"
+    }, {
+      "id" : "_KflgsWy6Ee6wU9t9-3ftJw",
+      "name" : "cont"
+    }, {
+      "id" : "_KflgtGy6Ee6wU9t9-3ftJw",
+      "name" : "Folder"
+    }, {
+      "id" : "_KflgtWy6Ee6wU9t9-3ftJw",
+      "name" : "File"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_osAjQG4_Ee6RyPDba60JBQ",
+    "parameterList" : [ {
+      "id" : "_osUFRm4_Ee6RyPDba60JBQ",
+      "name" : "SCHEMA_TARGET"
+    }, {
+      "id" : "_osUFQm4_Ee6RyPDba60JBQ",
+      "name" : "USERID_S"
+    }, {
+      "id" : "_osUFRG4_Ee6RyPDba60JBQ",
+      "name" : "WAREHOUSE_S"
+    }, {
+      "id" : "_osUFRW4_Ee6RyPDba60JBQ",
+      "name" : "SCHEMA_STAGING"
+    }, {
+      "id" : "_osUFQW4_Ee6RyPDba60JBQ",
+      "name" : "ACOUNT_S"
+    } ]
+  } ]
+}

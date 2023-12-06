@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_0szFoIK5Ee6SHr6712Weyw" path="" type="CONTEXT"/>
+  <deletedItems id="_73iOsEl5Ee66TqXgCEdArQ" path="" type="CONTEXT"/>
+  <deletedItems id="_UdvZsCm3Ee2RvPxkBvhWjQ" path="" type="CONTEXT"/>
+  <deletedItems id="_W5lEUBKdEe2B_f1wtoJzjg" path="" type="CONTEXT"/>
+  <deletedItems id="_noIDwPt8EeyQoJZseqjALQ" path="" type="CONTEXT"/>
+  <deletedItems id="_sgYnEEmQEe66TqXgCEdArQ" path="" type="CONTEXT"/>
+  <deletedItems id="_t9vAoCiPEe2gQIaIobvPFw" path="" type="CONTEXT"/>
+  <deletedItems id="_NkoKwG9GEe6pbY2JzFedJQ" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_UqlvkGpeEe69hbm09jA9Sw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_hDRRUG_hEe6XK-AiuwZFfw" path="" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_DiwFwIRFEe6C4Zf5SJ8GRA" path="" type="METADATA_FILE_XML"/>
+  <deletedItems id="_68onEIIsEe6OWKZdmOkElg" path="" type="PROCESS"/>
+  <deletedItems id="_wEgq4GpaEe69hbm09jA9Sw" path="AWS_S3" type="PROCESS"/>
+  <deletedItems id="_5rCpgG46Ee6RyPDba60JBQ" path="datawarehouse_project" type="PROCESS"/>
+  <deletedItems id="_o2mkoG86Ee6pbY2JzFedJQ" path="datawarehouse_project" type="PROCESS"/>
+  <deletedItems id="_Dd19QIKoEe6SHr6712Weyw" path="" type="snowflake"/>
+  <deletedItems id="_n0OhUESrEe6LG8VkFx56HQ" path="" type="snowflake"/>
+  <deletedItems id="_x3PLEDNXEe6H5ZwlZJkn8A" path="" type="snowflake"/>
+  <deletedItems id="_yEnFcElgEe66TqXgCEdArQ" path="" type="snowflake"/>
+</recyclebin:RecycleBin>

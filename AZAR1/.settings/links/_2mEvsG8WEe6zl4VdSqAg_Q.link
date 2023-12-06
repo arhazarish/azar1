@@ -1,0 +1,60 @@
+{
+  "itemId" : "_2mEvsG8WEe6zl4VdSqAg_Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_osAjQG4_Ee6RyPDba60JBQ",
+    "parameterList" : [ {
+      "id" : "_osUFQW4_Ee6RyPDba60JBQ",
+      "name" : "ACOUNT_S"
+    }, {
+      "id" : "_osUFQm4_Ee6RyPDba60JBQ",
+      "name" : "USERID_S"
+    }, {
+      "id" : "_osUFQ24_Ee6RyPDba60JBQ",
+      "name" : "PASSWORD"
+    }, {
+      "id" : "_osUFRG4_Ee6RyPDba60JBQ",
+      "name" : "WAREHOUSE_S"
+    }, {
+      "id" : "_osUFRW4_Ee6RyPDba60JBQ",
+      "name" : "SCHEMA_STAGING"
+    }, {
+      "id" : "_osUFRm4_Ee6RyPDba60JBQ",
+      "name" : "SCHEMA_TARGET"
+    }, {
+      "id" : "_osUFR24_Ee6RyPDba60JBQ",
+      "name" : "DATABASE"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KfUa8Gy6Ee6wU9t9-3ftJw",
+    "parameterList" : [ {
+      "id" : "_dR4iEGy6Ee6wU9t9-3ftJw",
+      "name" : "filenametarget"
+    }, {
+      "id" : "_Kflgsmy6Ee6wU9t9-3ftJw",
+      "name" : "acesskey"
+    }, {
+      "id" : "_Kflgs2y6Ee6wU9t9-3ftJw",
+      "name" : "secretekey"
+    }, {
+      "id" : "_OjOVQGy6Ee6wU9t9-3ftJw",
+      "name" : "soursepath"
+    }, {
+      "id" : "_XYXJ8Wy6Ee6wU9t9-3ftJw",
+      "name" : "mybucket"
+    }, {
+      "id" : "_XYXJ8Gy6Ee6wU9t9-3ftJw",
+      "name" : "targetpath"
+    }, {
+      "id" : "_KflgsWy6Ee6wU9t9-3ftJw",
+      "name" : "cont"
+    }, {
+      "id" : "_KflgtGy6Ee6wU9t9-3ftJw",
+      "name" : "Folder"
+    }, {
+      "id" : "_KflgtWy6Ee6wU9t9-3ftJw",
+      "name" : "File"
+    } ]
+  } ]
+}

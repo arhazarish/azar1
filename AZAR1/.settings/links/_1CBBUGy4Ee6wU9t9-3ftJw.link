@@ -1,0 +1,75 @@
+{
+  "itemId" : "_1CBBUGy4Ee6wU9t9-3ftJw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KfUa8Gy6Ee6wU9t9-3ftJw",
+    "parameterList" : [ {
+      "id" : "_KflgsWy6Ee6wU9t9-3ftJw",
+      "name" : "cont"
+    }, {
+      "id" : "_Kflgsmy6Ee6wU9t9-3ftJw",
+      "name" : "acesskey"
+    }, {
+      "id" : "_Kflgs2y6Ee6wU9t9-3ftJw",
+      "name" : "secretekey"
+    }, {
+      "id" : "_KflgtGy6Ee6wU9t9-3ftJw",
+      "name" : "Folder"
+    }, {
+      "id" : "_KflgtWy6Ee6wU9t9-3ftJw",
+      "name" : "File"
+    }, {
+      "id" : "_OjOVQGy6Ee6wU9t9-3ftJw",
+      "name" : "soursepath"
+    }, {
+      "id" : "_XYXJ8Gy6Ee6wU9t9-3ftJw",
+      "name" : "targetpath"
+    }, {
+      "id" : "_XYXJ8Wy6Ee6wU9t9-3ftJw",
+      "name" : "mybucket"
+    }, {
+      "id" : "_dR4iEGy6Ee6wU9t9-3ftJw",
+      "name" : "filenametarget"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Vhy-MGzsEe6jf_Qo0jMwvw",
+    "parameterList" : [ {
+      "id" : "_ViQRNWzsEe6jf_Qo0jMwvw",
+      "name" : "SOURCE_COUNT"
+    }, {
+      "id" : "_ViQRM2zsEe6jf_Qo0jMwvw",
+      "name" : "STARTDATE"
+    }, {
+      "id" : "_ViQROGzsEe6jf_Qo0jMwvw",
+      "name" : "ERROR_MESSAGE"
+    }, {
+      "id" : "_4sE6oGzsEe6jf_Qo0jMwvw",
+      "name" : "job_id"
+    }, {
+      "id" : "_ViQRMmzsEe6jf_Qo0jMwvw",
+      "name" : "JOBNAME"
+    }, {
+      "id" : "_CUDhgGztEe6jf_Qo0jMwvw",
+      "name" : "maxExecution_Key"
+    }, {
+      "id" : "_ViQRNmzsEe6jf_Qo0jMwvw",
+      "name" : "TARGET_COUNT"
+    }, {
+      "id" : "_ViQRN2zsEe6jf_Qo0jMwvw",
+      "name" : "REJECT_COUNT"
+    }, {
+      "id" : "_ViQRMWzsEe6jf_Qo0jMwvw",
+      "name" : "PROJECT_NAME"
+    }, {
+      "id" : "_ViQRNGzsEe6jf_Qo0jMwvw",
+      "name" : "ENDDATE"
+    }, {
+      "id" : "_jBbnIG1wEe6Xx6apqzzcdg",
+      "name" : "STATUS"
+    }, {
+      "id" : "_yWOxcG1xEe6Xx6apqzzcdg",
+      "name" : "LOOKUP_COUNT"
+    } ]
+  } ]
+}

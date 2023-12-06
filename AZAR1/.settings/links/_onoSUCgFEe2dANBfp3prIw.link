@@ -1,0 +1,45 @@
+{
+  "itemId" : "_onoSUCgFEe2dANBfp3prIw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_t9vAoCiPEe2gQIaIobvPFw",
+    "parameterList" : [ {
+      "id" : "_t99qIiiPEe2gQIaIobvPFw",
+      "name" : "DB_SNOWFLAKE_STAGING_Database"
+    }, {
+      "id" : "_t99qISiPEe2gQIaIobvPFw",
+      "name" : "DB_SNOWFLAKE_STAGING_Password"
+    }, {
+      "id" : "_t99qJCiPEe2gQIaIobvPFw",
+      "name" : "DB_SNOWFLAKE_STAGING_Schema"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_noIDwPt8EeyQoJZseqjALQ",
+    "parameterList" : [ {
+      "id" : "_noyLEft8EeyQoJZseqjALQ",
+      "name" : "aws_accesskey_id"
+    }, {
+      "id" : "_noyLEvt8EeyQoJZseqjALQ",
+      "name" : "aws_secretkey"
+    }, {
+      "id" : "_675L8PunEeyX9MPaU1lAog",
+      "name" : "aws_source_bucket"
+    }, {
+      "id" : "_675L8funEeyX9MPaU1lAog",
+      "name" : "aws_source_key"
+    }, {
+      "id" : "_mLUy4PxeEeyHBdCdecgcNA",
+      "name" : "file_mask"
+    }, {
+      "id" : "_noyLFft8EeyQoJZseqjALQ",
+      "name" : "local_source_output_folder"
+    }, {
+      "id" : "_noyLFPt8EeyQoJZseqjALQ",
+      "name" : "local_source_upload_folder"
+    }, {
+      "id" : "_noyLE_t8EeyQoJZseqjALQ",
+      "name" : "parameterise_file_path"
+    } ]
+  } ]
+}
