@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/Data_lake_Azar/Datalake_Demo</deletedFolders>
   <deletedItems id="_0szFoIK5Ee6SHr6712Weyw" path="" type="CONTEXT"/>
   <deletedItems id="_73iOsEl5Ee66TqXgCEdArQ" path="" type="CONTEXT"/>
   <deletedItems id="_UdvZsCm3Ee2RvPxkBvhWjQ" path="" type="CONTEXT"/>
@@ -16,7 +17,9 @@
   <deletedItems id="_5rCpgG46Ee6RyPDba60JBQ" path="datawarehouse_project" type="PROCESS"/>
   <deletedItems id="_o2mkoG86Ee6pbY2JzFedJQ" path="datawarehouse_project" type="PROCESS"/>
   <deletedItems id="_Dd19QIKoEe6SHr6712Weyw" path="" type="snowflake"/>
+  <deletedItems id="_VIuBIEYvEe665Oich5SVoA" path="" type="snowflake"/>
   <deletedItems id="_n0OhUESrEe6LG8VkFx56HQ" path="" type="snowflake"/>
+  <deletedItems id="_owR84BYnEe6uON-zyXIOPQ" path="" type="snowflake"/>
   <deletedItems id="_x3PLEDNXEe6H5ZwlZJkn8A" path="" type="snowflake"/>
   <deletedItems id="_yEnFcElgEe66TqXgCEdArQ" path="" type="snowflake"/>
 </recyclebin:RecycleBin>

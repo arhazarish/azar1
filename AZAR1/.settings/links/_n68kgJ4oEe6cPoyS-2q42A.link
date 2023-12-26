@@ -1,0 +1,84 @@
+{
+  "itemId" : "_n68kgJ4oEe6cPoyS-2q42A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_GGhoIJ5yEe66Hq7QbVFY1g",
+    "parameterList" : [ {
+      "id" : "_GHppgZ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_scope"
+    }, {
+      "id" : "_GHppgp5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_clientId"
+    }, {
+      "id" : "_GHppg55yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_userPassword_password"
+    }, {
+      "id" : "_GHqQkJ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_loginTimeout"
+    }, {
+      "id" : "_GHqQkZ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_userPassword_userId"
+    }, {
+      "id" : "_GHqQkp5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_schemaName"
+    }, {
+      "id" : "_GHqQk55yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_keyAlias"
+    }, {
+      "id" : "_GHqQlJ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_GHqQlZ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_db"
+    }, {
+      "id" : "_GHqQlp5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_regionID"
+    }, {
+      "id" : "_GHqQl55yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_clientSecret"
+    }, {
+      "id" : "_GHqQmJ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_role"
+    }, {
+      "id" : "_GHqQmZ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_jdbcParameters"
+    }, {
+      "id" : "_GHqQmp5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_GHqQm55yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_account"
+    }, {
+      "id" : "_GHqQnJ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_warehouse"
+    }, {
+      "id" : "_GHqQnZ5yEe66Hq7QbVFY1g",
+      "name" : "Data_lake_oauthProperties_oauthPassword"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Y-I6AJ8EEe6mPZua9LKyMQ",
+    "parameterList" : [ {
+      "id" : "_Y-iipJ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Database"
+    }, {
+      "id" : "_Y-iip58EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Login"
+    }, {
+      "id" : "_Y-iioZ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Schema"
+    }, {
+      "id" : "_Y-iio58EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Server"
+    }, {
+      "id" : "_Y-iipZ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Password"
+    }, {
+      "id" : "_Y-iiop8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Port"
+    }, {
+      "id" : "_Y-iipp8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_AdditionalParams"
+    } ]
+  } ]
+}

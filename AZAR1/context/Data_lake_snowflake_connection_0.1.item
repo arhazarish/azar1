@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" hide="false" name="Default" xmi:id="_GHppgJ5yEe66Hq7QbVFY1g" xmi:version="2.0">
+  <contextParameter comment="" name="Data_lake_oauthProperties_scope" prompt="Data_lake_oauthProperties_scope?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHppgZ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_oauthProperties_clientId" prompt="Data_lake_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHppgp5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_userPassword_password" prompt="Data_lake_userPassword_password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Bcq5pObdJylvOWXHBmihqN9qqfW0zaxmTe6uB8LK9cS/B1D+6Wo89A==" xmi:id="_GHppg55yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_loginTimeout" prompt="Data_lake_loginTimeout?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="15" xmi:id="_GHqQkJ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_userPassword_userId" prompt="Data_lake_userPassword_userId?" promptNeeded="false" repositoryContextId="" type="id_String" value="AZAR" xmi:id="_GHqQkZ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_schemaName" prompt="Data_lake_schemaName?" promptNeeded="false" repositoryContextId="" type="id_String" value="DATALAKE_S" xmi:id="_GHqQkp5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_keyAlias" prompt="Data_lake_keyAlias?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQk55yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_oauthProperties_oauthUserName" prompt="Data_lake_oauthProperties_oauthUserName?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQlJ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_db" prompt="Data_lake_db?" promptNeeded="false" repositoryContextId="" type="id_String" value="DATALAKE" xmi:id="_GHqQlZ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_regionID" prompt="Data_lake_regionID?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQlp5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_oauthProperties_clientSecret" prompt="Data_lake_oauthProperties_clientSecret?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_GHqQl55yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_role" prompt="Data_lake_role?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQmJ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_jdbcParameters" prompt="Data_lake_jdbcParameters?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQmZ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_oauthProperties_oauthTokenEndpoint" prompt="Data_lake_oauthProperties_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_GHqQmp5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_account" prompt="Data_lake_account?" promptNeeded="false" repositoryContextId="" type="id_String" value="qiyyise-bm02925" xmi:id="_GHqQm55yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_warehouse" prompt="Data_lake_warehouse?" promptNeeded="false" repositoryContextId="" type="id_String" value="COMPUTE_WH" xmi:id="_GHqQnJ5yEe66Hq7QbVFY1g"/>
+  <contextParameter comment="" name="Data_lake_oauthProperties_oauthPassword" prompt="Data_lake_oauthProperties_oauthPassword?" promptNeeded="false" repositoryContextId="" type="id_Password" value="" xmi:id="_GHqQnZ5yEe66Hq7QbVFY1g"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9d7a6ab3-4b59-477f-be93-688b54f5f855"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>l9+g81woSoC7qakZHPB8dl1Vo7UZeeNJaXJG2yF5pjcQWyAtDxOVQ2LIijQki9hjsNWYT/jfKZIX&#13;
+DgRXOept+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b20d0f4a-28a1-49c1-8622-606bac65b410"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wSbvWjJxwi03dl6m6Vb6dcgSuryqMa06rBEOsI7bIORmmeAZ/lifXKlZ9O7d6gLYoSJ7uKj7cqJY&#13;
+lBTGGI7zEA==</DigestValue></Reference></SignedInfo><SignatureValue>E5u1P9FUcCiCky4ien2ITuY5qgmSzqlmiAmORDEf6u5+sYh8r2eYVCHL4INPfO3dGkzX+KV+6tjJ&#13;
+p2WcGSo1Q3baDKhkS2C6reWvHFn7dcI62c659tV6OYph5tXUpdp1TkpEEPROpeEf2hg/Vi2VuqPu&#13;
+c76+N+px3ZDlT2fFgj4BG5D/msm8S5dFbTbiJxBIpbtCBAsWBpXzoxEcJ23kt7P6V7yUCVNRC2Lb&#13;
+U7NnuDY7O2Ht9o+n/l0oqVriRitJ35I82fMAVwzrS/iZFE/XEM3RA9/SEleO8F82MXoArqbY/fyg&#13;
+Fec+j8gVtJ+96d6oXUXw7aUHGkJkadjdBNp/jQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b20d0f4a-28a1-49c1-8622-606bac65b410" Target="#_9d7a6ab3-4b59-477f-be93-688b54f5f855"><Timestamp>2023-12-19 13:25:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

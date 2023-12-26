@@ -1,0 +1,29 @@
+{
+  "itemId" : "_G8ddQJ8EEe6mPZua9LKyMQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Y-I6AJ8EEe6mPZua9LKyMQ",
+    "parameterList" : [ {
+      "id" : "_Y-iioZ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Schema"
+    }, {
+      "id" : "_Y-iiop8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Port"
+    }, {
+      "id" : "_Y-iio58EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Server"
+    }, {
+      "id" : "_Y-iipJ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Database"
+    }, {
+      "id" : "_Y-iipZ8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Password"
+    }, {
+      "id" : "_Y-iipp8EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_AdditionalParams"
+    }, {
+      "id" : "_Y-iip58EEe6mPZua9LKyMQ",
+      "name" : "Datalake_postgres_Login"
+    } ]
+  } ]
+}
