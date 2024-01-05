@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" internalId="_jmHVoWsMEe6xmLlsq1T0wQ" name="cont" prompt="cont?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Talend/ProjectK/credientials/AWS_Crediantials.txt&quot;"/>
-    <contextParameter comment="" internalId="_5ETj0GkPEe6RaP46k4gSfg" name="acesskey" prompt="acesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_5ETj0WkPEe6RaP46k4gSfg" name="secretekey" prompt="secretekey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_5ETj0GkPEe6RaP46k4gSfg" name="acesskey" prompt="acesskey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AKIAVCA3FZNAE2QX6O4V"/>
+    <contextParameter comment="" internalId="_5ETj0WkPEe6RaP46k4gSfg" name="secretekey" prompt="secretekey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="6Jyk1itA2XGtI9lNEBGh4ny8I8J/xvi/1SvX+34e"/>
     <contextParameter comment="" internalId="_S3VZYGmGEe6CReDRbND5nA" name="Folder" prompt="Folder?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_S3VZYWmGEe6CReDRbND5nA" name="File" prompt="File?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_jmHVoGsMEe6xmLlsq1T0wQ" name="soursepath" prompt="soursepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_rqtkkGsUEe6xmLlsq1T0wQ" name="targetpath" prompt="targetpath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_th1p4Gy3Ee6wU9t9-3ftJw" name="mybucket" prompt="mybucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_jmHVoGsMEe6xmLlsq1T0wQ" name="soursepath" prompt="soursepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/ProjectK/AWS3"/>
+    <contextParameter comment="" internalId="_rqtkkGsUEe6xmLlsq1T0wQ" name="targetpath" prompt="targetpath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talend/ProjectK/retriving_files_from_S3_"/>
+    <contextParameter comment="" internalId="_th1p4Gy3Ee6wU9t9-3ftJw" name="mybucket" prompt="mybucket?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="arhaa"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -248,6 +248,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileList_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.soursepath"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
@@ -270,6 +271,7 @@
   </node>
   <node componentName="tS3Put" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Put_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" show="false" value="STATIC_CREDENTIALS"/>
@@ -464,14 +466,17 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tFileList_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tS3Put_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileList_1" offsetLabelX="0" offsetLabelY="0" source="tFileList_1" target="tS3List_1">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tS3List_1" offsetLabelX="0" offsetLabelY="0" source="tS3List_1" target="tJava_3">
@@ -535,13 +540,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ccd05218-bd2e-49f8-ad00-10620237f697"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>S8CS0SK2b+OHVmMIV4+GMXwmcQs7P4kRK958H3RaCqoMQxsFK4ebO5FmFt5XAcJSjU3yYBJsOw8I&#13;
-MUI02eLeWw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1a7c9d76-7773-462d-9516-3c937a710e04"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qmvz5q7hH9EU7clPxk4VhDQRxwT3MemKXeKXp4Kg/MB7CPYazEcoYO7azyHy3/ex4NNU054d8GsF&#13;
-y/ywGDkt8g==</DigestValue></Reference></SignedInfo><SignatureValue>S6B/N5+MTx1DQhCl3KgMDx86EKHYbMNPkW60FVi0iqjqQwen7GMK9hC3X2j6VqINHofknRBlYhkP&#13;
-YpAH95Dan2Q4yu8YqGMpxWKq5TvpJxTBJYv0mLfyURwefAHJBGVcTvwXYIYJSL94uL5pV84Qv/bJ&#13;
-rlVinYQP6IeWk5+WPDAw7A+tJVgKsboHhPLcKKiHrjIlKXuj3CyF4zwoxHHBnGuWbn5Hy5oiOWKS&#13;
-+nzZx+2RJgG+jp4wGcmmHQExysmz9E+AZrTlvotCeuKWhE0vbAa+XbMR8//EBD14y5VLpqWcFvRL&#13;
-CCnJqY2gnf/dLFDd9W02f47zHsybAPPtKL3dcg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f9272282-fa33-4bd7-9ff7-fd2e3969e7da"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+rsy2bpssVuXBxN1TFpuuORf8XOxi7yk0RKU5+anho1xVCl+HPcYuKzyVQc6qBsz6gQYAoX5TywZ&#13;
+fSDQI1SK6Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2b31dafe-ea1c-472b-8a14-5f046f2e24d1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>50uvLg41EU69C6gAsv2axr4dQw8ltz4A9d9vqY4+cR3KqmnpXQFuEgRAppgNFexR5a5au76Yolf3&#13;
+lZwq7NyidQ==</DigestValue></Reference></SignedInfo><SignatureValue>WATigQK2mj1nDubvkzTLJOUvrMuPXMeH9wu7Ew80UyRJ62zNIgEYex9D4I0zfrtG0wg9bmhkfSj7&#13;
+L07VdJtgVXTkmbMxh35U7rz+421vxZQCSBWr3BIS0MItDi+yGqOfD2mBHdn1wk8pWYc6vIbrWi6Q&#13;
+1pplq16fX3HgxoxHjhWZbfZvJ8n+lRlTxG4c1XI2Kfzwx+/QyASbu3y1gugWgsvkqT5wymf8+72V&#13;
+rBHE34xAeAahkMF0IAqIyi9RP4r+tyBlWYN8Cz84uD2/lFwQg31PApkAX37436EZ/eBYzPOt073O&#13;
+i0sr+ju4IanEWFcQLmcrBfA2umeA6ptEjqM6Cw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -563,4 +568,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1a7c9d76-7773-462d-9516-3c937a710e04" Target="#_ccd05218-bd2e-49f8-ad00-10620237f697"><Timestamp>2024-01-02 04:56:57</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2b31dafe-ea1c-472b-8a14-5f046f2e24d1" Target="#_f9272282-fa33-4bd7-9ff7-fd2e3969e7da"><Timestamp>2024-01-02 05:48:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
