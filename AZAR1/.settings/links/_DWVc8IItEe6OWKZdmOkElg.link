@@ -1,0 +1,29 @@
+{
+  "itemId" : "_DWVc8IItEe6OWKZdmOkElg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KRxNgIK7Ee6sSqz_Uqqrdw",
+    "parameterList" : [ {
+      "id" : "_MlhY0IK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Server"
+    }, {
+      "id" : "_MlhY0YK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Password"
+    }, {
+      "id" : "_MlhY0oK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Login"
+    }, {
+      "id" : "_MlhY04K7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_AdditionalParams"
+    }, {
+      "id" : "_MlhY1IK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Port"
+    }, {
+      "id" : "_MlhY1YK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Database"
+    }, {
+      "id" : "_MlhY1oK7Ee6sSqz_Uqqrdw",
+      "name" : "Migration_Schema"
+    } ]
+  } ]
+}
