@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_hAaGgboPEe6QAfUghE6fKA" label="Azarr" language="java" technicalLabel="AZARR" author="_hAaGgroPEe6QAfUghE6fKA" productVersion="Talend Cloud Data Management Platform-8.0.1.20231222_1430-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/arhazarish/azar1.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_hBxYcLoPEe6QAfUghE6fKA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_hAaGgroPEe6QAfUghE6fKA" login="itsazar.md@trial26888.eu.talend.com" firstName="Aarhan" lastName="Azar" type="DQ"/>
+</xmi:XMI>
